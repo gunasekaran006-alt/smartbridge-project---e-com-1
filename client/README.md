@@ -1,6 +1,147 @@
 # smartbridge-project-e-com-1
 kids shoppy - completly MERN used PROJECT
 
+Kids Shoppy is a complete MERN Stack (MongoDB, Express, React, Node.js) based E-Commerce web application designed for selling kids products online. This project includes both client (React) and server (Node.js + Express + MongoDB) with full user flow.
+
+### 👤 User Features
+- User Signup / Login (JWT Authentication)
+- Browse all products
+- View single product details
+- Add to Wishlist
+- Add to Cart (Orders)
+- Place Order
+- View My Orders
+- Remove items from Wishlist
+
+---
+
+### 🛒 Seller Features
+- Add New Products
+- Manage Inventory
+- Update Product Details
+- View Orders from Customers
+
+---
+
+### 🛠️ Admin Features
+- Approve / Delete Sellers
+- Manage Users
+- Manage All Orders
+- Delete any listings/items
+
+---
+
+## 🧩 Tech Stack (MERN)
+
+| Layer      | Technology |
+|------------|------------|
+| **Frontend** | React + Vite, Axios |
+| **Backend** | Node.js, Express.js |
+| **Database** | MongoDB (Mongoose) |
+| **Auth** | JWT Authentication |
+| **File Upload** | Multer |
+| **Styling** | CSS |
+
+---
+
+## 📁 Folder Structure
+
+
+
+│
+├── client/ → React Frontend
+│ ├── src/
+│ ├── components/
+│ ├── pages/
+│ └── package.json
+│
+├── server/ → Node/Express Backend
+│ ├── models/
+│ ├── controllers/
+│ ├── routes/
+│ ├── middlewares/
+│ ├── config/
+│ └── server.js
+│
+├── README.md
+└── package.json
+
+
+
+---
+
+## 🔧 Installation & Run (Local Setup)
+
+### 1️⃣ Clone the Repo
+
+
+
+### 2️⃣ Setup Client
+cd client
+npm install
+npm run dev
+
+
+### 3️⃣ Setup Server
+cd server
+npm install
+npm start
+
+
+---
+
+## 🔑 Environment Variables (.env)
+MONGO_DB=your_mongo_connection_string
+JWT_SECRET=your_jwt_secret
+
+
+---
+
+## 📌 API Endpoints Overview
+
+### 👉 User Routes
+POST /login
+POST /signup
+GET /item
+GET /item/:id
+POST /userorder
+GET /getorders/:userId
+
+
+
+### 👉 Wishlist Routes
+GET /wishlist/:userId
+POST /wishlist/add
+POST /wishlist/remove
+
+
+### 👉 Admin & Seller routes also included
+/admin
+/seller
+
+
+---
+
+## 🎨 UI Preview (Screens)
+- Home Page  
+- Product Listing  
+- Product Details  
+- Wishlist  
+- Orders Page  
+- Admin Dashboard  
+- Seller Dashboard  
+
+---
+
+## ❤️ Developer
+**Gunasekaran**  
+Full-Stack MERN Developer
+
+---
+
+
+
+
 
 
 
