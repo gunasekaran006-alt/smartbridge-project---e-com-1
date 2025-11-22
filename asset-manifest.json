@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/smartbridge-project---e-com-1/static/css/main.221faf52.css",
+    "main.js": "/smartbridge-project---e-com-1/static/js/main.904be427.js",
+    "static/js/787.d5fa4d18.chunk.js": "/smartbridge-project---e-com-1/static/js/787.d5fa4d18.chunk.js",
+    "static/media/home-banner-2.png": "/smartbridge-project---e-com-1/static/media/home-banner-2.01eb3954e2f6aeb16676.png",
+    "index.html": "/smartbridge-project---e-com-1/index.html",
+    "main.221faf52.css.map": "/smartbridge-project---e-com-1/static/css/main.221faf52.css.map",
+    "main.904be427.js.map": "/smartbridge-project---e-com-1/static/js/main.904be427.js.map",
+    "787.d5fa4d18.chunk.js.map": "/smartbridge-project---e-com-1/static/js/787.d5fa4d18.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.221faf52.css",
+    "static/js/main.904be427.js"
+  ]
+}
